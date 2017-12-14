@@ -7,10 +7,7 @@
 </template>
 
 <script>
-  import Vue from 'vue'
-  import other from '@/components/OtherComponent'
 
-  Vue.component('other', other);
   export default {
     name: 'HelloWorld',
     data() {

@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+import other from '@/components/OtherComponent'
+Vue.component('other', other);
 
 /* eslint-disable no-new */
 new Vue({
